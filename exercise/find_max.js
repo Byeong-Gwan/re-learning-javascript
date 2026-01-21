@@ -1,18 +1,18 @@
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const findMaxNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-function findMax (numbers) {
-    let max = numbers[0];
+function findMax (findMaxNumbers) {
+    let max = findMaxNumbers[0];
 
-    for (let i =0; i < numbers.length; i++) {
-        if (numbers[i] > max) {
-            max = numbers[i];
+    for (let i =0; i < findMaxNumbers.length; i++) {
+        if (findMaxNumbers[i] > max) {
+            max = findMaxNumbers[i];
         }
     }
 
     return max;
 }
 
-console.log(findMax(numbers));
+console.log(findMax(findMaxNumbers));
 
 /**
  * 질문: 이 함수는 전체적으로 무엇을 찾으려는 함수일까요? 그리고 if문 안에서는 어떤 일이 일어나고 있나요?
